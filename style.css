@@ -1,0 +1,152 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: #3a4c52;
+}
+main{
+    width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 100px;
+    width: 960px;
+}
+nav{
+    height: 50px;
+    width: 960px;
+    border: #233338 solid 1px;
+    border-radius: 5px;
+    background-image: linear-gradient(#556b73 , #2b383d) ;
+}
+
+.logo{
+    margin-top: 12px; margin-left: 50px;
+}
+
+.main-nav{
+    list-style: none;
+}
+.main-nav li{
+    float: left;
+}
+.main-nav li a{
+    display: block;
+    width: 119px; height: 50px;
+    border-right: #233338 solid 1px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #6b8890;
+    font-weight: bold;
+}
+
+.main-nav li a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.slide{
+    width: 960px;
+    height: 262px;
+}
+.slide img{
+    width: 973px;
+    margin-left: -13px;
+}
+
+.services{
+    width: 960px;height: 270px;
+    margin-top: 10px;
+background-image: linear-gradient(#4d646c,#3e5157) ;
+}
+
+.lserv{
+    width: 480px;height: 270px;
+    float: left;
+    position: relative;
+}
+.rserv{
+    width: 480px;height: 270px;
+    float: right;
+    position: relative;
+}
+h3{
+    color: #b7e002;
+    font-size: 18px; font-weight: bold;
+    position: absolute;left: 50px;top: 20px;
+}
+p{
+    color: #fff;
+    font-size: 14px;  position: absolute;left: 30px;
+    padding-right: 20px;
+}
+.p1{ top: 50px;}
+.p2{ top: 180px;}
+.lserv img{
+    position: absolute;
+    right: 0px;top: 30px;
+}
+
+.p3{
+    width: 240px;
+    position: absolute;
+    left: 30px;top: 50px;
+}
+
+.rserv ul{
+    position: absolute;
+    left: 50px;top: 120px;
+    color: white;
+    list-style-image: url(images/check1.png);
+}
+
+.img1{
+    position: absolute;
+    top: 10px; right: -13px
+}
+.img2{
+    position: absolute;
+    bottom:  10px; right: 10px
+}
+
+footer{
+    width: 960px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer-nav{
+    list-style: none;
+    position: absolute;
+    left: 50px;
+}
+.footer-nav li{
+    display: inline-block;
+ 
+}
+.footer-nav li a{
+    color: white;
+    text-decoration: none;
+    border-right:solid 1px ;
+    padding-left:10px ;
+    padding-right:10px ;
+}
+
+
+.copy{
+    position: absolute;
+    left: 400px;
+}
+.Policy{
+    position: absolute;
+    left: 800px;
+}
+footer span{
+    color: yellowgreen;
+    font-weight: bold;
+}
